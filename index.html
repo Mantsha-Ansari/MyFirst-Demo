@@ -7,7 +7,45 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Hello World</p>
-    <h1>My First Demo</h1>
+    <div class="container">
+        <div class="header">
+            <h1>Currency Converter</h1>
+        </div>
+        <form>
+            <div class="input-group">
+                <label for="amount"> Amount</label>
+                <br>
+                <input type="number" id="amount" name="amount" placeholder="Enter amount">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>from</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="from">
+                            
+                        </select>
+                    </div>
+                </div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+                <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to">
+                            
+                        </select>
+                    </div>
+                 </div>
+              </div> 
+                  <div class="msg">
+                    <p>1 USD = 83.69 INR</p>
+                  </div> 
+                  <button >Get Exchange Rate</button>
+
+            </div>
+        </form>
+    </div>
+    
 </body>
 </html>
